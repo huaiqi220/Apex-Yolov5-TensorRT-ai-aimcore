@@ -9,6 +9,12 @@
 
 实现了>60fps的高帧率辅助瞄准。
 
+![myrj4-4m3m0](https://github.com/huaiqi220/Apex-Yolov5-TensorRT-ai-aimcore/assets/64659513/823ce3d3-7f26-4725-9bec-eb5d914df4a3)
+
+![train_batch0](https://github.com/huaiqi220/Apex-Yolov5-TensorRT-ai-aimcore/assets/64659513/2a9c461f-6988-4007-8276-b9cfbf091634)
+
+![results](https://github.com/huaiqi220/Apex-Yolov5-TensorRT-ai-aimcore/assets/64659513/afae4224-f24e-4d58-919d-ad7ecd1b200e)
+
 ### 工作流上：
 1. 首先使用数据采集代码，如main/screen.py采集屏幕中心640 * 640像素图片。
 2. 从640 *640 图片中筛选存在队友和敌人的图片。
@@ -18,9 +24,7 @@
 6. 根据TensortX框架将pt模型经过wts模型转换为engine模型。
 7. 编写鼠标控制代码。
 8. 调用模型，实现鼠标控制及辅助瞄准功能。
-![myrj4-4m3m0](https://github.com/huaiqi220/Apex-Yolov5-TensorRT-ai-aimcore/assets/64659513/823ce3d3-7f26-4725-9bec-eb5d914df4a3)
 
-![train_batch0](https://github.com/huaiqi220/Apex-Yolov5-TensorRT-ai-aimcore/assets/64659513/2a9c461f-6988-4007-8276-b9cfbf091634)
 ### 复盘：
 1. 可用数据最终到手才7000张，也没有做数据增强，所以模型准确率，尤其是s模型PR一般。
 2. 截图，控制操作，最后使用更熟悉的python完成，如果使用C++推理速度还能更快。
@@ -47,8 +51,7 @@
 
 ### 游戏里开过吗，给不给模型文件
 一次没开过，只训练场简单测试，开挂sm嗷，全套代码都在仓库，模型文件因大小原因暂时不提交到仓库，找我要也不给，别要了
-![val_batch0_labels](https://github.com/huaiqi220/Apex-Yolov5-TensorRT-ai-aimcore/assets/64659513/4d94878d-02d1-48d4-9b07-ab2905e71213)
-![results](https://github.com/huaiqi220/Apex-Yolov5-TensorRT-ai-aimcore/assets/64659513/afae4224-f24e-4d58-919d-ad7ecd1b200e)
+
 
 
 
