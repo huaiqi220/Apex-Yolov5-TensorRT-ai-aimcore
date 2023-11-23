@@ -1,0 +1,422 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<OBJECT type="text/site properties">
+	<param name="Window Styles" value="0x800025">
+</OBJECT>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Introduction">
+		<param name="Local" value="html\introduction.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Configuration">
+		<param name="Local" value="html\configuration.html">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Display Tab">
+			<param name="Local" value="html\config\displaytab.html">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Video mode">
+				<param name="Local" value="html\config\display\videomode.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Add color depths">
+				<param name="Local" value="html\config\display\addcolordepths.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Scaling method">
+				<param name="Local" value="html\config\display\scalingmethod.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Additional display modes">
+				<param name="Local" value="html\config\display\additionaldisplaymodes.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Screen aspect ratio">
+				<param name="Local" value="html\config\display\screenaspectratio.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Sort video modes">
+				<param name="Local" value="html\config\display\sortvideomodes.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="DPI scaling mode">
+				<param name="Local" value="html\config\display\dpiscalingmode.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Vertical sync">
+				<param name="Local" value="html\config\display\verticalsync.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Fullscreen window mode">
+				<param name="Local" value="html\config\display\fullscreenwindowmode.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Fixed scaling">
+				<param name="Local" value="html\config\display\fixedscaling.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Custom resolution">
+				<param name="Local" value="html\config\display\customresolution.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Change display color depth">
+				<param name="Local" value="html\config\display\changedisplaycolordepth.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Windowed mode scaling">
+				<param name="Local" value="html\config\display\windowmodescaling.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Single buffered display">
+				<param name="Local" value="html\config\display\singlebuffereddisplay.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Use SetDisplayConfig API">
+				<param name="Local" value="html\config\display\setdisplayconfig.html">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Effects Tab">
+			<param name="Local" value="html\config\effectstab.html">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Postprocess scaler">
+				<param name="Local" value="html\config\effects\postprocessscaler.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Postprocess input multiplier">
+				<param name="Local" value="html\config\effects\postprocessinputmultiplier.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Primary buffer scaling">
+				<param name="Local" value="html\config\effects\primarybufferscaling.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Blt scaling filter">
+				<param name="Local" value="html\config\effects\bltscalingfilter.html">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="3D Graphics Tab">
+			<param name="Local" value="html\config\3dgraphicstab.html">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Texture filter">
+				<param name="Local" value="html\config\3dgraphics\texturefilter.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Anisotropic filtering">
+				<param name="Local" value="html\config\3dgraphics\anisotropicfiltering.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Antialiasing (MSAA)">
+				<param name="Local" value="html\config\3dgraphics\antialiasing.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Renderer aspect ratio">
+				<param name="Local" value="html\config\3dgraphics\rendereraspectratio.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Low color rendering">
+				<param name="Local" value="html\config\3dgraphics\lowcolorrendering.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Enable dithering">
+				<param name="Local" value="html\config\3dgraphics\enabledithering.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Limit D3D Texture Formats">
+				<param name="Local" value="html\config\3dgraphics\limitd3dtextureformats.html">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Advanced Tab">
+			<param name="Local" value="html\config\advancedtab.html">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Texture format">
+				<param name="Local" value="html\config\advanced\textureformat.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Texture access method">
+				<param name="Local" value="html\config\advanced\textureaccessmethod.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Default window position">
+				<param name="Local" value="html\config\advanced\defaultwindowposition.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Remember window position">
+				<param name="Local" value="html\config\advanced\rememberwindowposition.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Remember window size">
+				<param name="Local" value="html\config\advanced\rememberwindowsize.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Remembered window position">
+				<param name="Local" value="html\config\advanced\rememberedwindowposition.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Remembered window size">
+				<param name="Local" value="html\config\advanced\rememberedwindowsize.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Start resizable window maximized">
+				<param name="Local" value="html\config\advanced\startresizablewindowmaximized.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Don't auto-size window in resizable window mode">
+				<param name="Local" value="html\config\advanced\dontautosizewindow.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Installation path">
+				<param name="Local" value="html\config\advanced\installationpath.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Capture mouse in window mode (Press Ctrl+Alt to release)">
+				<param name="Local" value="html\config\advanced\capturemouseinwindowmode.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Write INI file...">
+				<param name="Local" value="html\config\advanced\writeinifile.html">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Debug Tab">
+			<param name="Local" value="html\config\debugtab.html">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Disable EXT framebuffers">
+				<param name="Local" value="html\config\debug\disableextframebuffers.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Disable ARB framebuffers">
+				<param name="Local" value="html\config\debug\disablearbframebuffers.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Disable GLES2 compatibility extension">
+				<param name="Local" value="html\config\debug\disablegles2compatibility.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Disable EXT direct state access">
+				<param name="Local" value="html\config\debug\disableextdirectstateaccess.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Disable ARB direct state access">
+				<param name="Local" value="html\config\debug\disablearbdirectstateaccess.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Disable sampler objects">
+				<param name="Local" value="html\config\debug\disablesamplerobjects.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Disable EXT_gpu_shader4 extension">
+				<param name="Local" value="html\config\debug\disableextgpushader4.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Disable GLSL 1.30 support">
+				<param name="Local" value="html\config\debug\disableglsl130support.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Upload surface contents on unlock">
+				<param name="Local" value="html\config\debug\uploadsurfacecontentsonunlock.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Disable mouse cursor hooks">
+				<param name="Local" value="html\config\debug\disablemousecursorhooks.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Disable draw on palette change">
+				<param name="Local" value="html\config\debug\disabledrawonpalettechange.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="DEBUG: Blend destination color key texture with source">
+				<param name="Local" value="html\config\debug\debugblenddestinationcolor.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Maximum OpenGL version">
+				<param name="Local" value="html\config\debug\maximumopenglversion.html">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Hacks Tab">
+			<param name="Local" value="html\config\hackstab.html">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Crop 640&times;480 to 640&times;400">
+				<param name="Local" value="html\config\hacks\crop640480to640400.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Automatically expand viewport">
+				<param name="Local" value="html\config\hacks\automaticallyexpandviewport.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Automatic expand comparison method">
+				<param name="Local" value="html\config\hacks\automaticexpandcomparisonmethod.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Automatic expand comparison value">
+				<param name="Local" value="html\config\hacks\automaticexpandcomparisonvalue.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Remove TV-compatible refresh rates">
+				<param name="Local" value="html\config\hacks\removetvcompatiblerefreshrates.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="SetCursor hide visibility">
+				<param name="Local" value="html\config\hacks\setcursorhidevisibility.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Palette draw delay (ms)">
+				<param name="Local" value="html\config\hacks\palettedrawdelayms.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Sync palette update to Vsync">
+				<param name="Local" value="html\config\hacks\syncpaletteupdatetovsync.html">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Graphics Tests Tab">
+			<param name="Local" value="html\config\gfxtesttab.html">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Color palette and gradient screens">
+				<param name="Local" value="html\config\gfxtest\colorpalette.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Random noise">
+				<param name="Local" value="html\config\gfxtest\randomnoise.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="GDI Test patterns">
+				<param name="Local" value="html\config\gfxtest\gditest.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Random GDI patterns">
+				<param name="Local" value="html\config\gfxtest\randomgdi.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="BltFast background and sprites">
+				<param name="Local" value="html\config\gfxtest\bltfast.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Random color fill Blt() patterns">
+				<param name="Local" value="html\config\gfxtest\colorfill.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Mouse pointer event test">
+				<param name="Local" value="html\config\gfxtest\mousetest.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Raster operation Blt() test">
+				<param name="Local" value="html\config\gfxtest\rasterop.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Mirrored and rotated Blt() test">
+				<param name="Local" value="html\config\gfxtest\mirrorrotate.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Large batch color fill Blt() operations">
+				<param name="Local" value="html\config\gfxtest\largebatchblt.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Source color key override test">
+				<param name="Local" value="html\config\gfxtest\srckeyoverride.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Destination color key override test">
+				<param name="Local" value="html\config\gfxtest\destkeyoverride.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="DrawIndexedPrimitive cube with directional light">
+				<param name="Local" value="html\config\gfxtest\drawindexedprimitive.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="DrawPrimitive textured cube">
+				<param name="Local" value="html\config\gfxtest\drawprimitivetextured.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Texture stage shaders">
+				<param name="Local" value="html\config\gfxtest\texturestageshaders.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Vertex shaders">
+				<param name="Local" value="html\config\gfxtest\vertexshaders.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="SetCursorPos test">
+				<param name="Local" value="html\config\gfxtest\setcursorpos.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Blt background, Raster operation Blt sprites">
+				<param name="Local" value="html\config\gfxtest\bltraster.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Surface/Texture format test">
+				<param name="Local" value="html\config\gfxtest\surfaceformat.html">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Window API test">
+				<param name="Local" value="html\config\gfxtest\windowapitest.html">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="About Tab">
+			<param name="Local" value="html\config\abouttab.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Troubleshooting">
+			<param name="Local" value="html\troubleshooting.html">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Licenses">
+		<param name="Local" value="html\licenses.html">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="DXGL License">
+			<param name="Local" value="html\licenses\dxgl.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Wine License">
+			<param name="Local" value="html\licenses\wine.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="CRC-32 Public Domain Declaration">
+			<param name="Local" value="html\licenses\crc32.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="WjCryptLib Unlicense">
+			<param name="Local" value="html\licenses\sha.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Mesa SGI License">
+			<param name="Local" value="html\licenses\mesa.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="MinHook License">
+			<param name="Local" value="html\licenses\minhook.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="inih License">
+			<param name="Local" value="html\licenses\inih.html">
+			</OBJECT>
+	</UL>
+</UL>
+</BODY></HTML>

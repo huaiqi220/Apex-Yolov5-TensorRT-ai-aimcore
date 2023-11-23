@@ -1,0 +1,41 @@
+[tool.poetry]
+name = "pyDXGI3D"
+version = "0.0.1"
+description = "DXGI / Direct3D Screen Capture using python"
+readme = "readme.md"
+authors = ["Jean Vanhay"]
+license = "MIT"
+repository = "https://github.com/Hellikandra/pyDXGID3D"
+keywords = ["DXGI", "Direct3D", "Screen Capture", "Windows"]
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: Microsoft :: Windows :: Windows 10",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.10"
+    "Topic :: Multimedia :: Graphics",
+    "Topic :: Multimedia :: Graphics :: Capture",
+    "Topic :: Multimedia :: Graphics :: Capture :: Screen Capture"
+]
+packages = [
+	{include = "Direct3D"},
+]
+include = []
+
+[tool.poetry.dependencies]
+python = ">=3.8"
+
+comtypes = "~1.1.13"
+ctypes = "~1.1.0"
+
+[tool.poetry.dev-dependencies]
+
+[tool.black]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

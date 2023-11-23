@@ -1,0 +1,7 @@
+path: C:\Users\zhuzi\Desktop\yolov5\data
+train: train\images
+val: valid\images
+nc: 2
+names:
+- partner
+- enemy

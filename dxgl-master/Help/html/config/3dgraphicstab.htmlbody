@@ -1,0 +1,25 @@
+<p>
+  <img class="alignnone size-full wp-image-266" src="images/dxglcfg-3dgraphics.png" alt="" width="537" height="418" />
+  The 3D Graphics tab adjusts various settings specific to 3D graphics.  At this time, most options are not yet available.
+</p>
+<p>
+  <a href="3dgraphics/texturefilter.html">Texture filter</a>
+</p>
+<p>
+  <a href="3dgraphics/anisotropicfiltering.html">Anisotropic filtering</a>
+</p>
+<p>
+  <a href="3dgraphics/antialiasing.html">Antialiasing (MSAA)</a>
+</p>
+<p>
+  <a href="3dgraphics/rendereraspectratio.html">Renderer aspect ratio</a>
+</p>
+<p>
+  <a href="3dgraphics/lowcolorrendering.html">Low color rendering</a>
+</p>
+<p>
+  <a href="3dgraphics/enabledithering.html">Enable dithering</a>
+</p>
+<p>
+  <a href="3dgraphics/limitd3dtextureformats.html">Limit D3D Texture Formats</a>
+</p>

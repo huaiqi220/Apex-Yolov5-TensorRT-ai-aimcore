@@ -1,0 +1,756 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Help files">
+      <UniqueIdentifier>{906ea9c0-1ddf-4cb2-9e85-4eafde27f5ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Help files\images">
+      <UniqueIdentifier>{051b7381-64aa-484b-95bb-301c72c9c673}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Help files\html">
+      <UniqueIdentifier>{22f3e2a1-c231-4f50-8a0f-2d9f538b01d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Help files\html\config">
+      <UniqueIdentifier>{788bd65e-b156-4723-9023-258fb5b2c058}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Help files\html\config\display">
+      <UniqueIdentifier>{933e60ac-025f-4ea7-8faf-4de1dd6fb468}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Help files\html\config\effects">
+      <UniqueIdentifier>{508eed92-c424-422b-9783-90a3a2baf281}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Help files\html\config\3dgraphics">
+      <UniqueIdentifier>{fa403dd8-75d3-4fc2-a2b2-5faf57094dad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Help files\html\config\advanced">
+      <UniqueIdentifier>{f46bbc6c-86ac-4296-85a2-41262b3aa6ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Help files\html\config\debug">
+      <UniqueIdentifier>{a60d8545-0c0a-4788-af08-6e8364880a77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Help files\html\config\hacks">
+      <UniqueIdentifier>{2dae2734-32a0-4a33-8126-8ea206cf9008}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Help files\html\licenses">
+      <UniqueIdentifier>{518a1b28-a12a-45ef-85ac-2720c1a59035}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Help files\html\config\gfxtest">
+      <UniqueIdentifier>{4abdb459-188c-4577-99ec-e822db390921}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="dxgl.hhp">
+      <Filter>Help files</Filter>
+    </None>
+    <None Include="Index.hhk">
+      <Filter>Help files</Filter>
+    </None>
+    <None Include="toc.hhc">
+      <Filter>Help files</Filter>
+    </None>
+    <None Include="dxgl.css">
+      <Filter>Help files</Filter>
+    </None>
+    <None Include="html5.js">
+      <Filter>Help files</Filter>
+    </None>
+    <None Include="images\dxgl-header.png">
+      <Filter>Help files\images</Filter>
+    </None>
+    <None Include="template.html">
+      <Filter>Help files</Filter>
+    </None>
+    <None Include="html\introduction.htmlbody">
+      <Filter>Help files\html</Filter>
+    </None>
+    <None Include="html\troubleshooting.htmlbody">
+      <Filter>Help files\html</Filter>
+    </None>
+    <None Include="html\configuration.htmlbody">
+      <Filter>Help files\html</Filter>
+    </None>
+    <None Include="images\dxglcfg-display.png">
+      <Filter>Help files\images</Filter>
+    </None>
+    <None Include="html\config\displaytab.htmlbody">
+      <Filter>Help files\html\config</Filter>
+    </None>
+    <None Include="html\config\effectstab.htmlbody">
+      <Filter>Help files\html\config</Filter>
+    </None>
+    <None Include="html\config\3dgraphicstab.htmlbody">
+      <Filter>Help files\html\config</Filter>
+    </None>
+    <None Include="html\config\advancedtab.htmlbody">
+      <Filter>Help files\html\config</Filter>
+    </None>
+    <None Include="html\config\debugtab.htmlbody">
+      <Filter>Help files\html\config</Filter>
+    </None>
+    <None Include="html\config\hackstab.htmlbody">
+      <Filter>Help files\html\config</Filter>
+    </None>
+    <None Include="html\config\gfxtesttab.htmlbody">
+      <Filter>Help files\html\config</Filter>
+    </None>
+    <None Include="html\config\abouttab.htmlbody">
+      <Filter>Help files\html\config</Filter>
+    </None>
+    <None Include="html\configuration.htmltitle">
+      <Filter>Help files\html</Filter>
+    </None>
+    <None Include="html\introduction.htmltitle">
+      <Filter>Help files\html</Filter>
+    </None>
+    <None Include="html\troubleshooting.htmltitle">
+      <Filter>Help files\html</Filter>
+    </None>
+    <None Include="html\config\3dgraphicstab.htmltitle">
+      <Filter>Help files\html\config</Filter>
+    </None>
+    <None Include="html\config\abouttab.htmltitle">
+      <Filter>Help files\html\config</Filter>
+    </None>
+    <None Include="html\config\advancedtab.htmltitle">
+      <Filter>Help files\html\config</Filter>
+    </None>
+    <None Include="html\config\debugtab.htmltitle">
+      <Filter>Help files\html\config</Filter>
+    </None>
+    <None Include="html\config\displaytab.htmltitle">
+      <Filter>Help files\html\config</Filter>
+    </None>
+    <None Include="html\config\effectstab.htmltitle">
+      <Filter>Help files\html\config</Filter>
+    </None>
+    <None Include="html\config\gfxtesttab.htmltitle">
+      <Filter>Help files\html\config</Filter>
+    </None>
+    <None Include="html\config\hackstab.htmltitle">
+      <Filter>Help files\html\config</Filter>
+    </None>
+    <None Include="html\config\display\videomode.htmlbody">
+      <Filter>Help files\html\config\display</Filter>
+    </None>
+    <None Include="html\config\display\videomode.htmltitle">
+      <Filter>Help files\html\config\display</Filter>
+    </None>
+    <None Include="html\config\display\addcolordepths.htmltitle">
+      <Filter>Help files\html\config\display</Filter>
+    </None>
+    <None Include="html\config\display\addcolordepths.htmlbody">
+      <Filter>Help files\html\config\display</Filter>
+    </None>
+    <None Include="html\config\display\scalingmethod.htmltitle">
+      <Filter>Help files\html\config\display</Filter>
+    </None>
+    <None Include="html\config\display\scalingmethod.htmlbody">
+      <Filter>Help files\html\config\display</Filter>
+    </None>
+    <None Include="html\config\display\additionaldisplaymodes.htmltitle">
+      <Filter>Help files\html\config\display</Filter>
+    </None>
+    <None Include="html\config\display\additionaldisplaymodes.htmlbody">
+      <Filter>Help files\html\config\display</Filter>
+    </None>
+    <None Include="html\config\display\screenaspectratio.htmltitle">
+      <Filter>Help files\html\config\display</Filter>
+    </None>
+    <None Include="html\config\display\screenaspectratio.htmlbody">
+      <Filter>Help files\html\config\display</Filter>
+    </None>
+    <None Include="html\config\display\sortvideomodes.htmltitle">
+      <Filter>Help files\html\config\display</Filter>
+    </None>
+    <None Include="html\config\display\sortvideomodes.htmlbody">
+      <Filter>Help files\html\config\display</Filter>
+    </None>
+    <None Include="html\config\display\dpiscalingmode.htmltitle">
+      <Filter>Help files\html\config\display</Filter>
+    </None>
+    <None Include="html\config\display\dpiscalingmode.htmlbody">
+      <Filter>Help files\html\config\display</Filter>
+    </None>
+    <None Include="html\config\display\verticalsync.htmltitle">
+      <Filter>Help files\html\config\display</Filter>
+    </None>
+    <None Include="html\config\display\verticalsync.htmlbody">
+      <Filter>Help files\html\config\display</Filter>
+    </None>
+    <None Include="html\config\display\fullscreenwindowmode.htmltitle">
+      <Filter>Help files\html\config\display</Filter>
+    </None>
+    <None Include="html\config\display\fullscreenwindowmode.htmlbody">
+      <Filter>Help files\html\config\display</Filter>
+    </None>
+    <None Include="html\config\display\fixedscaling.htmltitle">
+      <Filter>Help files\html\config\display</Filter>
+    </None>
+    <None Include="html\config\display\fixedscaling.htmlbody">
+      <Filter>Help files\html\config\display</Filter>
+    </None>
+    <None Include="html\config\display\customresolution.htmltitle">
+      <Filter>Help files\html\config\display</Filter>
+    </None>
+    <None Include="html\config\display\customresolution.htmlbody">
+      <Filter>Help files\html\config\display</Filter>
+    </None>
+    <None Include="html\config\display\changedisplaycolordepth.htmltitle">
+      <Filter>Help files\html\config\display</Filter>
+    </None>
+    <None Include="html\config\display\changedisplaycolordepth.htmlbody">
+      <Filter>Help files\html\config\display</Filter>
+    </None>
+    <None Include="html\config\display\singlebuffereddisplay.htmltitle">
+      <Filter>Help files\html\config\display</Filter>
+    </None>
+    <None Include="html\config\display\singlebuffereddisplay.htmlbody">
+      <Filter>Help files\html\config\display</Filter>
+    </None>
+    <None Include="html\config\effects\postprocessscaler.htmltitle">
+      <Filter>Help files\html\config\effects</Filter>
+    </None>
+    <None Include="html\config\effects\postprocessscaler.htmlbody">
+      <Filter>Help files\html\config\effects</Filter>
+    </None>
+    <None Include="html\config\effects\postprocessinputmultiplier.htmltitle">
+      <Filter>Help files\html\config\effects</Filter>
+    </None>
+    <None Include="html\config\effects\postprocessinputmultiplier.htmlbody">
+      <Filter>Help files\html\config\effects</Filter>
+    </None>
+    <None Include="html\config\effects\primarybufferscaling.htmltitle">
+      <Filter>Help files\html\config\effects</Filter>
+    </None>
+    <None Include="html\config\effects\primarybufferscaling.htmlbody">
+      <Filter>Help files\html\config\effects</Filter>
+    </None>
+    <None Include="html\config\effects\bltscalingfilter.htmltitle">
+      <Filter>Help files\html\config\effects</Filter>
+    </None>
+    <None Include="html\config\effects\bltscalingfilter.htmlbody">
+      <Filter>Help files\html\config\effects</Filter>
+    </None>
+    <None Include="images\dxglcfg-3dgraphics.png">
+      <Filter>Help files\images</Filter>
+    </None>
+    <None Include="images\dxglcfg-about.png">
+      <Filter>Help files\images</Filter>
+    </None>
+    <None Include="images\dxglcfg-advanced.png">
+      <Filter>Help files\images</Filter>
+    </None>
+    <None Include="images\dxglcfg-debug.png">
+      <Filter>Help files\images</Filter>
+    </None>
+    <None Include="images\dxglcfg-effects.png">
+      <Filter>Help files\images</Filter>
+    </None>
+    <None Include="images\dxglcfg-hacks.png">
+      <Filter>Help files\images</Filter>
+    </None>
+    <None Include="images\dxglcfg-tests.png">
+      <Filter>Help files\images</Filter>
+    </None>
+    <None Include="images\gradients-8bpp.png">
+      <Filter>Help files\images</Filter>
+    </None>
+    <None Include="images\gradients-15bpp.png">
+      <Filter>Help files\images</Filter>
+    </None>
+    <None Include="images\gradients-16bpp.png">
+      <Filter>Help files\images</Filter>
+    </None>
+    <None Include="images\gradients-24bpp.png">
+      <Filter>Help files\images</Filter>
+    </None>
+    <None Include="html\config\3dgraphics\texturefilter.htmltitle">
+      <Filter>Help files\html\config\3dgraphics</Filter>
+    </None>
+    <None Include="html\config\3dgraphics\texturefilter.htmlbody">
+      <Filter>Help files\html\config\3dgraphics</Filter>
+    </None>
+    <None Include="html\config\3dgraphics\anisotropicfiltering.htmltitle">
+      <Filter>Help files\html\config\3dgraphics</Filter>
+    </None>
+    <None Include="html\config\3dgraphics\anisotropicfiltering.htmlbody">
+      <Filter>Help files\html\config\3dgraphics</Filter>
+    </None>
+    <None Include="html\config\3dgraphics\antialiasing.htmltitle">
+      <Filter>Help files\html\config\3dgraphics</Filter>
+    </None>
+    <None Include="html\config\3dgraphics\antialiasing.htmlbody">
+      <Filter>Help files\html\config\3dgraphics</Filter>
+    </None>
+    <None Include="html\config\3dgraphics\rendereraspectratio.htmltitle">
+      <Filter>Help files\html\config\3dgraphics</Filter>
+    </None>
+    <None Include="html\config\3dgraphics\rendereraspectratio.htmlbody">
+      <Filter>Help files\html\config\3dgraphics</Filter>
+    </None>
+    <None Include="html\config\3dgraphics\lowcolorrendering.htmltitle">
+      <Filter>Help files\html\config\3dgraphics</Filter>
+    </None>
+    <None Include="html\config\3dgraphics\lowcolorrendering.htmlbody">
+      <Filter>Help files\html\config\3dgraphics</Filter>
+    </None>
+    <None Include="html\config\3dgraphics\enabledithering.htmltitle">
+      <Filter>Help files\html\config\3dgraphics</Filter>
+    </None>
+    <None Include="html\config\3dgraphics\enabledithering.htmlbody">
+      <Filter>Help files\html\config\3dgraphics</Filter>
+    </None>
+    <None Include="html\config\advanced\textureformat.htmltitle">
+      <Filter>Help files\html\config\advanced</Filter>
+    </None>
+    <None Include="html\config\advanced\textureformat.htmlbody">
+      <Filter>Help files\html\config\advanced</Filter>
+    </None>
+    <None Include="html\config\advanced\textureaccessmethod.htmltitle">
+      <Filter>Help files\html\config\advanced</Filter>
+    </None>
+    <None Include="html\config\advanced\textureaccessmethod.htmlbody">
+      <Filter>Help files\html\config\advanced</Filter>
+    </None>
+    <None Include="html\config\advanced\defaultwindowposition.htmltitle">
+      <Filter>Help files\html\config\advanced</Filter>
+    </None>
+    <None Include="html\config\advanced\defaultwindowposition.htmlbody">
+      <Filter>Help files\html\config\advanced</Filter>
+    </None>
+    <None Include="html\config\advanced\rememberwindowposition.htmltitle">
+      <Filter>Help files\html\config\advanced</Filter>
+    </None>
+    <None Include="html\config\advanced\rememberwindowposition.htmlbody">
+      <Filter>Help files\html\config\advanced</Filter>
+    </None>
+    <None Include="html\config\advanced\rememberwindowsize.htmltitle">
+      <Filter>Help files\html\config\advanced</Filter>
+    </None>
+    <None Include="html\config\advanced\rememberwindowsize.htmlbody">
+      <Filter>Help files\html\config\advanced</Filter>
+    </None>
+    <None Include="html\config\advanced\rememberedwindowposition.htmltitle">
+      <Filter>Help files\html\config\advanced</Filter>
+    </None>
+    <None Include="html\config\advanced\rememberedwindowsize.htmlbody">
+      <Filter>Help files\html\config\advanced</Filter>
+    </None>
+    <None Include="html\config\advanced\rememberedwindowposition.htmlbody">
+      <Filter>Help files\html\config\advanced</Filter>
+    </None>
+    <None Include="html\config\advanced\rememberedwindowsize.htmltitle">
+      <Filter>Help files\html\config\advanced</Filter>
+    </None>
+    <None Include="html\config\advanced\startresizablewindowmaximized.htmltitle">
+      <Filter>Help files\html\config\advanced</Filter>
+    </None>
+    <None Include="html\config\advanced\startresizablewindowmaximized.htmlbody">
+      <Filter>Help files\html\config\advanced</Filter>
+    </None>
+    <None Include="html\config\advanced\dontautosizewindow.htmltitle">
+      <Filter>Help files\html\config\advanced</Filter>
+    </None>
+    <None Include="html\config\advanced\dontautosizewindow.htmlbody">
+      <Filter>Help files\html\config\advanced</Filter>
+    </None>
+    <None Include="html\config\advanced\installationpath.htmltitle">
+      <Filter>Help files\html\config\advanced</Filter>
+    </None>
+    <None Include="html\config\advanced\installationpath.htmlbody">
+      <Filter>Help files\html\config\advanced</Filter>
+    </None>
+    <None Include="html\config\debug\disableextframebuffers.htmltitle">
+      <Filter>Help files\html\config\debug</Filter>
+    </None>
+    <None Include="html\config\debug\disableextframebuffers.htmlbody">
+      <Filter>Help files\html\config\debug</Filter>
+    </None>
+    <None Include="html\config\debug\disablearbframebuffers.htmltitle">
+      <Filter>Help files\html\config\debug</Filter>
+    </None>
+    <None Include="html\config\debug\disablearbframebuffers.htmlbody">
+      <Filter>Help files\html\config\debug</Filter>
+    </None>
+    <None Include="html\config\debug\disablegles2compatibility.htmltitle">
+      <Filter>Help files\html\config\debug</Filter>
+    </None>
+    <None Include="html\config\debug\disablegles2compatibility.htmlbody">
+      <Filter>Help files\html\config\debug</Filter>
+    </None>
+    <None Include="html\config\debug\disableextdirectstateaccess.htmltitle">
+      <Filter>Help files\html\config\debug</Filter>
+    </None>
+    <None Include="html\config\debug\disableextdirectstateaccess.htmlbody">
+      <Filter>Help files\html\config\debug</Filter>
+    </None>
+    <None Include="html\config\debug\disablearbdirectstateaccess.htmltitle">
+      <Filter>Help files\html\config\debug</Filter>
+    </None>
+    <None Include="html\config\debug\disablearbdirectstateaccess.htmlbody">
+      <Filter>Help files\html\config\debug</Filter>
+    </None>
+    <None Include="html\config\debug\disablesamplerobjects.htmltitle">
+      <Filter>Help files\html\config\debug</Filter>
+    </None>
+    <None Include="html\config\debug\disablesamplerobjects.htmlbody">
+      <Filter>Help files\html\config\debug</Filter>
+    </None>
+    <None Include="html\config\debug\disableextgpushader4.htmltitle">
+      <Filter>Help files\html\config\debug</Filter>
+    </None>
+    <None Include="html\config\debug\disableextgpushader4.htmlbody">
+      <Filter>Help files\html\config\debug</Filter>
+    </None>
+    <None Include="html\config\debug\disableglsl130support.htmltitle">
+      <Filter>Help files\html\config\debug</Filter>
+    </None>
+    <None Include="html\config\debug\disableglsl130support.htmlbody">
+      <Filter>Help files\html\config\debug</Filter>
+    </None>
+    <None Include="html\config\debug\debugblenddestinationcolor.htmltitle">
+      <Filter>Help files\html\config\debug</Filter>
+    </None>
+    <None Include="html\config\debug\debugblenddestinationcolor.htmlbody">
+      <Filter>Help files\html\config\debug</Filter>
+    </None>
+    <None Include="html\config\debug\maximumopenglversion.htmltitle">
+      <Filter>Help files\html\config\debug</Filter>
+    </None>
+    <None Include="html\config\debug\maximumopenglversion.htmlbody">
+      <Filter>Help files\html\config\debug</Filter>
+    </None>
+    <None Include="html\config\hacks\crop640480to640400.htmltitle">
+      <Filter>Help files\html\config\hacks</Filter>
+    </None>
+    <None Include="html\config\hacks\crop640480to640400.htmlbody">
+      <Filter>Help files\html\config\hacks</Filter>
+    </None>
+    <None Include="html\config\hacks\removetvcompatiblerefreshrates.htmltitle">
+      <Filter>Help files\html\config\hacks</Filter>
+    </None>
+    <None Include="html\config\hacks\removetvcompatiblerefreshrates.htmlbody">
+      <Filter>Help files\html\config\hacks</Filter>
+    </None>
+    <None Include="html\config\hacks\setcursorhidevisibility.htmltitle">
+      <Filter>Help files\html\config\hacks</Filter>
+    </None>
+    <None Include="html\config\hacks\setcursorhidevisibility.htmlbody">
+      <Filter>Help files\html\config\hacks</Filter>
+    </None>
+    <None Include="html\licenses.htmltitle">
+      <Filter>Help files\html</Filter>
+    </None>
+    <None Include="html\licenses.htmlbody">
+      <Filter>Help files\html</Filter>
+    </None>
+    <None Include="html\licenses\dxgl.htmltitle">
+      <Filter>Help files\html\licenses</Filter>
+    </None>
+    <None Include="html\licenses\dxgl.htmlbody">
+      <Filter>Help files\html\licenses</Filter>
+    </None>
+    <None Include="html\licenses\wine.htmltitle">
+      <Filter>Help files\html\licenses</Filter>
+    </None>
+    <None Include="html\licenses\wine.htmlbody">
+      <Filter>Help files\html\licenses</Filter>
+    </None>
+    <None Include="html\licenses\crc32.htmltitle">
+      <Filter>Help files\html\licenses</Filter>
+    </None>
+    <None Include="html\licenses\crc32.htmlbody">
+      <Filter>Help files\html\licenses</Filter>
+    </None>
+    <None Include="html\licenses\sha.htmltitle">
+      <Filter>Help files\html\licenses</Filter>
+    </None>
+    <None Include="html\licenses\sha.htmlbody">
+      <Filter>Help files\html\licenses</Filter>
+    </None>
+    <None Include="html\licenses\mesa.htmltitle">
+      <Filter>Help files\html\licenses</Filter>
+    </None>
+    <None Include="html\licenses\mesa.htmlbody">
+      <Filter>Help files\html\licenses</Filter>
+    </None>
+    <None Include="html\licenses\minhook.htmltitle">
+      <Filter>Help files\html\licenses</Filter>
+    </None>
+    <None Include="html\licenses\minhook.htmlbody">
+      <Filter>Help files\html\licenses</Filter>
+    </None>
+    <None Include="html\licenses\inih.htmltitle">
+      <Filter>Help files\html\licenses</Filter>
+    </None>
+    <None Include="html\licenses\inih.htmlbody">
+      <Filter>Help files\html\licenses</Filter>
+    </None>
+    <None Include="html\config\debug\uploadsurfacecontentsonunlock.htmltitle">
+      <Filter>Help files\html\config\debug</Filter>
+    </None>
+    <None Include="html\config\debug\uploadsurfacecontentsonunlock.htmlbody">
+      <Filter>Help files\html\config\debug</Filter>
+    </None>
+    <None Include="html\config\debug\disablemousecursorhooks.htmltitle">
+      <Filter>Help files\html\config\debug</Filter>
+    </None>
+    <None Include="html\config\debug\disablemousecursorhooks.htmlbody">
+      <Filter>Help files\html\config\debug</Filter>
+    </None>
+    <None Include="html\config\advanced\capturemouseinwindowmode.htmltitle">
+      <Filter>Help files\html\config\advanced</Filter>
+    </None>
+    <None Include="html\config\advanced\capturemouseinwindowmode.htmlbody">
+      <Filter>Help files\html\config\advanced</Filter>
+    </None>
+    <None Include="html\config\advanced\writeinifile.htmltitle">
+      <Filter>Help files\html\config\advanced</Filter>
+    </None>
+    <None Include="html\config\advanced\writeinifile.htmlbody">
+      <Filter>Help files\html\config\advanced</Filter>
+    </None>
+    <None Include="html\config\hacks\automaticallyexpandviewport.htmltitle">
+      <Filter>Help files\html\config\hacks</Filter>
+    </None>
+    <None Include="html\config\hacks\automaticallyexpandviewport.htmlbody">
+      <Filter>Help files\html\config\hacks</Filter>
+    </None>
+    <None Include="html\config\hacks\automaticexpandcomparisonmethod.htmltitle">
+      <Filter>Help files\html\config\hacks</Filter>
+    </None>
+    <None Include="html\config\hacks\automaticexpandcomparisonmethod.htmlbody">
+      <Filter>Help files\html\config\hacks</Filter>
+    </None>
+    <None Include="html\config\hacks\automaticexpandcomparisonvalue.htmltitle">
+      <Filter>Help files\html\config\hacks</Filter>
+    </None>
+    <None Include="html\config\hacks\automaticexpandcomparisonvalue.htmlbody">
+      <Filter>Help files\html\config\hacks</Filter>
+    </None>
+    <None Include="html\config\gfxtest\colorpalette.htmltitle">
+      <Filter>Help files\html\config\gfxtest</Filter>
+    </None>
+    <None Include="html\config\gfxtest\colorpalette.htmlbody">
+      <Filter>Help files\html\config\gfxtest</Filter>
+    </None>
+    <None Include="html\config\gfxtest\randomnoise.htmltitle">
+      <Filter>Help files\html\config\gfxtest</Filter>
+    </None>
+    <None Include="html\config\gfxtest\randomnoise.htmlbody">
+      <Filter>Help files\html\config\gfxtest</Filter>
+    </None>
+    <None Include="html\config\gfxtest\gditest.htmltitle">
+      <Filter>Help files\html\config\gfxtest</Filter>
+    </None>
+    <None Include="html\config\gfxtest\gditest.htmlbody">
+      <Filter>Help files\html\config\gfxtest</Filter>
+    </None>
+    <None Include="html\config\gfxtest\randomgdi.htmltitle">
+      <Filter>Help files\html\config\gfxtest</Filter>
+    </None>
+    <None Include="html\config\gfxtest\randomgdi.htmlbody">
+      <Filter>Help files\html\config\gfxtest</Filter>
+    </None>
+    <None Include="html\config\gfxtest\bltfast.htmltitle">
+      <Filter>Help files\html\config\gfxtest</Filter>
+    </None>
+    <None Include="html\config\gfxtest\bltfast.htmlbody">
+      <Filter>Help files\html\config\gfxtest</Filter>
+    </None>
+    <None Include="html\config\gfxtest\colorfill.htmltitle">
+      <Filter>Help files\html\config\gfxtest</Filter>
+    </None>
+    <None Include="html\config\gfxtest\colorfill.htmlbody">
+      <Filter>Help files\html\config\gfxtest</Filter>
+    </None>
+    <None Include="html\config\gfxtest\mousetest.htmltitle">
+      <Filter>Help files\html\config\gfxtest</Filter>
+    </None>
+    <None Include="html\config\gfxtest\mousetest.htmlbody">
+      <Filter>Help files\html\config\gfxtest</Filter>
+    </None>
+    <None Include="html\config\gfxtest\rasterop.htmlbody">
+      <Filter>Help files\html\config\gfxtest</Filter>
+    </None>
+    <None Include="html\config\gfxtest\mirrorrotate.htmltitle">
+      <Filter>Help files\html\config\gfxtest</Filter>
+    </None>
+    <None Include="html\config\gfxtest\mirrorrotate.htmlbody">
+      <Filter>Help files\html\config\gfxtest</Filter>
+    </None>
+    <None Include="html\config\gfxtest\largebatchblt.htmltitle">
+      <Filter>Help files\html\config\gfxtest</Filter>
+    </None>
+    <None Include="html\config\gfxtest\largebatchblt.htmlbody">
+      <Filter>Help files\html\config\gfxtest</Filter>
+    </None>
+    <None Include="html\config\gfxtest\srckeyoverride.htmltitle">
+      <Filter>Help files\html\config\gfxtest</Filter>
+    </None>
+    <None Include="html\config\gfxtest\srckeyoverride.htmlbody">
+      <Filter>Help files\html\config\gfxtest</Filter>
+    </None>
+    <None Include="html\config\gfxtest\destkeyoverride.htmltitle">
+      <Filter>Help files\html\config\gfxtest</Filter>
+    </None>
+    <None Include="html\config\gfxtest\destkeyoverride.htmlbody">
+      <Filter>Help files\html\config\gfxtest</Filter>
+    </None>
+    <None Include="html\config\gfxtest\drawindexedprimitive.htmltitle">
+      <Filter>Help files\html\config\gfxtest</Filter>
+    </None>
+    <None Include="html\config\gfxtest\drawindexedprimitive.htmlbody">
+      <Filter>Help files\html\config\gfxtest</Filter>
+    </None>
+    <None Include="html\config\gfxtest\drawprimitivetextured.htmltitle">
+      <Filter>Help files\html\config\gfxtest</Filter>
+    </None>
+    <None Include="html\config\gfxtest\drawprimitivetextured.htmlbody">
+      <Filter>Help files\html\config\gfxtest</Filter>
+    </None>
+    <None Include="html\config\gfxtest\texturestageshaders.htmltitle">
+      <Filter>Help files\html\config\gfxtest</Filter>
+    </None>
+    <None Include="html\config\gfxtest\texturestageshaders.htmlbody">
+      <Filter>Help files\html\config\gfxtest</Filter>
+    </None>
+    <None Include="html\config\gfxtest\vertexshaders.htmltitle">
+      <Filter>Help files\html\config\gfxtest</Filter>
+    </None>
+    <None Include="html\config\gfxtest\vertexshaders.htmlbody">
+      <Filter>Help files\html\config\gfxtest</Filter>
+    </None>
+    <None Include="html\config\gfxtest\setcursorpos.htmltitle">
+      <Filter>Help files\html\config\gfxtest</Filter>
+    </None>
+    <None Include="html\config\gfxtest\setcursorpos.htmlbody">
+      <Filter>Help files\html\config\gfxtest</Filter>
+    </None>
+    <None Include="html\config\gfxtest\bltraster.htmltitle">
+      <Filter>Help files\html\config\gfxtest</Filter>
+    </None>
+    <None Include="html\config\gfxtest\bltraster.htmlbody">
+      <Filter>Help files\html\config\gfxtest</Filter>
+    </None>
+    <None Include="html\config\debug\disabledrawonpalettechange.htmlbody">
+      <Filter>Help files\html\config\debug</Filter>
+    </None>
+    <None Include="html\config\debug\disabledrawonpalettechange.htmltitle">
+      <Filter>Help files\html\config\debug</Filter>
+    </None>
+    <None Include="html\config\hacks\palettedrawdelayms.htmltitle">
+      <Filter>Help files\html\config\hacks</Filter>
+    </None>
+    <None Include="html\config\hacks\palettedrawdelayms.htmlbody">
+      <Filter>Help files\html\config\hacks</Filter>
+    </None>
+    <None Include="html\config\hacks\syncpaletteupdatetovsync.htmltitle">
+      <Filter>Help files\html\config\hacks</Filter>
+    </None>
+    <None Include="html\config\hacks\syncpaletteupdatetovsync.htmlbody">
+      <Filter>Help files\html\config\hacks</Filter>
+    </None>
+    <None Include="images\bltfast.png">
+      <Filter>Help files\images</Filter>
+    </None>
+    <None Include="images\bltrop.png">
+      <Filter>Help files\images</Filter>
+    </None>
+    <None Include="images\colorfill-random.png">
+      <Filter>Help files\images</Filter>
+    </None>
+    <None Include="images\destkeyoverride.png">
+      <Filter>Help files\images</Filter>
+    </None>
+    <None Include="images\drawindexedprimitive.png">
+      <Filter>Help files\images</Filter>
+    </None>
+    <None Include="images\drawprimitivetextured.png">
+      <Filter>Help files\images</Filter>
+    </None>
+    <None Include="images\dxglcfg-saveini.png">
+      <Filter>Help files\images</Filter>
+    </None>
+    <None Include="images\gdi-pattern.png">
+      <Filter>Help files\images</Filter>
+    </None>
+    <None Include="images\gdi-random.png">
+      <Filter>Help files\images</Filter>
+    </None>
+    <None Include="images\large-batch-blt.png">
+      <Filter>Help files\images</Filter>
+    </None>
+    <None Include="images\mirror-rotate.png">
+      <Filter>Help files\images</Filter>
+    </None>
+    <None Include="images\mouse-test.png">
+      <Filter>Help files\images</Filter>
+    </None>
+    <None Include="images\palette-8bpp.png">
+      <Filter>Help files\images</Filter>
+    </None>
+    <None Include="images\random-noise.jpg">
+      <Filter>Help files\images</Filter>
+    </None>
+    <None Include="images\rop-patterns.png">
+      <Filter>Help files\images</Filter>
+    </None>
+    <None Include="images\setcursorpos.png">
+      <Filter>Help files\images</Filter>
+    </None>
+    <None Include="images\srckeyoverride.png">
+      <Filter>Help files\images</Filter>
+    </None>
+    <None Include="images\surfaceformat.png">
+      <Filter>Help files\images</Filter>
+    </None>
+    <None Include="images\textureshader.png">
+      <Filter>Help files\images</Filter>
+    </None>
+    <None Include="images\vertexshader.png">
+      <Filter>Help files\images</Filter>
+    </None>
+    <None Include="html\config\gfxtest\surfaceformat.htmltitle">
+      <Filter>Help files\html\config\gfxtest</Filter>
+    </None>
+    <None Include="html\config\gfxtest\surfaceformat.htmlbody">
+      <Filter>Help files\html\config\gfxtest</Filter>
+    </None>
+    <None Include="html\config\display\windowmodescaling.htmltitle">
+      <Filter>Help files\html\config\display</Filter>
+    </None>
+    <None Include="html\config\display\windowmodescaling.htmlbody">
+      <Filter>Help files\html\config\display</Filter>
+    </None>
+    <None Include="html\config\display\setdisplayconfig.htmltitle">
+      <Filter>Help files\html\config\display</Filter>
+    </None>
+    <None Include="html\config\display\setdisplayconfig.htmlbody">
+      <Filter>Help files\html\config\display</Filter>
+    </None>
+    <None Include="html\config\3dgraphics\limitd3dtextureformats.htmltitle">
+      <Filter>Help files\html\config\3dgraphics</Filter>
+    </None>
+    <None Include="html\config\3dgraphics\limitd3dtextureformats.htmlbody">
+      <Filter>Help files\html\config\3dgraphics</Filter>
+    </None>
+    <None Include="html\config\gfxtest\windowapitest.htmltitle">
+      <Filter>Help files\html\config\gfxtest</Filter>
+    </None>
+    <None Include="html\config\gfxtest\windowapitest.htmlbody">
+      <Filter>Help files\html\config\gfxtest</Filter>
+    </None>
+    <None Include="images\windowapitest1.png">
+      <Filter>Help files\images</Filter>
+    </None>
+    <None Include="images\windowapitest2.png">
+      <Filter>Help files\images</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="html\config\gfxtest\rasterop.htmltitle">
+      <Filter>Help files\html\config\gfxtest</Filter>
+    </Xml>
+  </ItemGroup>
+</Project>

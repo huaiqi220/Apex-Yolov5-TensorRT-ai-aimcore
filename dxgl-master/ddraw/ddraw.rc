@@ -1,0 +1,81 @@
+// DXGL
+// Copyright (C) 2011-2020 William Feely
+
+// This library is free software; you can redistribute it and/or
+// modify it under the terms of the GNU Lesser General Public
+// License as published by the Free Software Foundation; either
+// version 2.1 of the License, or (at your option) any later version.
+
+// This library is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+// Lesser General Public License for more details.
+
+// You should have received a copy of the GNU Lesser General Public
+// License along with this library; if not, write to the Free Software
+// Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
+
+#include <windows.h>
+#include <commctrl.h>
+#include <richedit.h>
+#include "resource.h"
+#include "../common/version.h"
+
+
+
+
+//
+// Icon resources
+//
+LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
+#ifdef _NOBIGICONS
+IDI_ICON1          ICON           "..\\common\\dxgl48.ico"
+#else
+IDI_ICON1          ICON           "..\\common\\dxgl.ico"
+#endif
+
+//
+// Dialog resources
+//
+LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
+IDD_COMPAT DIALOG 0, 0, 196, 19
+STYLE DS_3DLOOK | DS_CENTER | DS_MODALFRAME | DS_SHELLFONT | WS_VISIBLE | WS_POPUP
+EXSTYLE WS_EX_WINDOWEDGE
+FONT 8, "Ms Shell Dlg"
+{
+    CTEXT           "Compatibility settings applied; now restarting your program.", IDC_STATIC, 5, 5, 186, 8, SS_CENTER, WS_EX_LEFT
+}
+
+
+//
+// Version Information resources
+//
+LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
+1 VERSIONINFO
+    FILEVERSION     DXGLVERNUMBER
+    PRODUCTVERSION  DXGLVERNUMBER
+    FILEOS          VOS__WINDOWS32
+    FILETYPE        VFT_DLL
+    FILESUBTYPE     VFT2_UNKNOWN
+    FILEFLAGSMASK   0x00000000
+    FILEFLAGS       0x00000000
+{
+    BLOCK "StringFileInfo"
+    {
+        BLOCK "08000352"
+        {
+            VALUE "CompanyName", "William Feely"
+            VALUE "FileDescription", "DXGL DDraw Library"
+            VALUE "FileVersion", DXGLVERSTRING
+            VALUE "InternalName", "DXGL"
+            VALUE "LegalCopyright", "Copyright © 2011-2020 William Feely"
+            VALUE "OriginalFilename", "DDraw.dll"
+            VALUE "ProductName", "DXGL"
+            VALUE "ProductVersion", DXGLVERSTRING
+        }
+    }
+    BLOCK "VarFileInfo"
+    {
+        VALUE "Translation", 0x0800, 0x0352
+    }
+}

@@ -1,0 +1,504 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug VS2022|Win32">
+      <Configuration>Debug VS2022</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug VS2022|x64">
+      <Configuration>Debug VS2022</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release VS2022|Win32">
+      <Configuration>Release VS2022</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release VS2022|x64">
+      <Configuration>Release VS2022</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8041FD11-3A2E-4EE9-A3FF-A9755803B7FB}</ProjectGuid>
+    <RootNamespace>Help</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug VS2022|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug VS2022|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release VS2022|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release VS2022|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug VS2022|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug VS2022|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release VS2022|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release VS2022|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <PostBuildEvent>
+      <Command>"$(OutDir)buildtool.exe" makehelp "$(ProjectDir)dxgl.hhp"</Command>
+    </PostBuildEvent>
+    <PostBuildEvent>
+      <Message>Building help...</Message>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <PostBuildEvent>
+      <Command>"$(OutDir)buildtool.exe" makehelp "$(ProjectDir)dxgl.hhp"</Command>
+    </PostBuildEvent>
+    <PostBuildEvent>
+      <Message>Building help...</Message>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug VS2022|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <PostBuildEvent>
+      <Command>"$(OutDir)buildtool.exe" makehelp "$(ProjectDir)dxgl.hhp"</Command>
+    </PostBuildEvent>
+    <PostBuildEvent>
+      <Message>Building help...</Message>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug VS2022|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <PostBuildEvent>
+      <Command>"$(OutDir)buildtool.exe" makehelp "$(ProjectDir)dxgl.hhp"</Command>
+    </PostBuildEvent>
+    <PostBuildEvent>
+      <Message>Building help...</Message>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <PostBuildEvent>
+      <Command>"$(OutDir)buildtool.exe" makehelp "$(ProjectDir)dxgl.hhp"</Command>
+    </PostBuildEvent>
+    <PostBuildEvent>
+      <Message>Building help...</Message>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <PostBuildEvent>
+      <Command>"$(OutDir)buildtool.exe" makehelp "$(ProjectDir)dxgl.hhp"</Command>
+    </PostBuildEvent>
+    <PostBuildEvent>
+      <Message>Building help...</Message>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release VS2022|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <PostBuildEvent>
+      <Command>"$(OutDir)buildtool.exe" makehelp "$(ProjectDir)dxgl.hhp"</Command>
+    </PostBuildEvent>
+    <PostBuildEvent>
+      <Message>Building help...</Message>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release VS2022|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <PostBuildEvent>
+      <Command>"$(OutDir)buildtool.exe" makehelp "$(ProjectDir)dxgl.hhp"</Command>
+    </PostBuildEvent>
+    <PostBuildEvent>
+      <Message>Building help...</Message>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="dxgl.css" />
+    <None Include="dxgl.hhp" />
+    <None Include="html5.js" />
+    <None Include="html\configuration.htmlbody" />
+    <None Include="html\configuration.htmltitle" />
+    <None Include="html\config\3dgraphicstab.htmlbody" />
+    <None Include="html\config\3dgraphicstab.htmltitle" />
+    <None Include="html\config\3dgraphics\anisotropicfiltering.htmlbody" />
+    <None Include="html\config\3dgraphics\anisotropicfiltering.htmltitle" />
+    <None Include="html\config\3dgraphics\antialiasing.htmlbody" />
+    <None Include="html\config\3dgraphics\antialiasing.htmltitle" />
+    <None Include="html\config\3dgraphics\enabledithering.htmlbody" />
+    <None Include="html\config\3dgraphics\enabledithering.htmltitle" />
+    <None Include="html\config\3dgraphics\limitd3dtextureformats.htmlbody" />
+    <None Include="html\config\3dgraphics\limitd3dtextureformats.htmltitle" />
+    <None Include="html\config\3dgraphics\lowcolorrendering.htmlbody" />
+    <None Include="html\config\3dgraphics\lowcolorrendering.htmltitle" />
+    <None Include="html\config\3dgraphics\rendereraspectratio.htmlbody" />
+    <None Include="html\config\3dgraphics\rendereraspectratio.htmltitle" />
+    <None Include="html\config\3dgraphics\texturefilter.htmlbody" />
+    <None Include="html\config\3dgraphics\texturefilter.htmltitle" />
+    <None Include="html\config\abouttab.htmlbody" />
+    <None Include="html\config\abouttab.htmltitle" />
+    <None Include="html\config\advancedtab.htmlbody" />
+    <None Include="html\config\advancedtab.htmltitle" />
+    <None Include="html\config\advanced\capturemouseinwindowmode.htmlbody" />
+    <None Include="html\config\advanced\capturemouseinwindowmode.htmltitle" />
+    <None Include="html\config\advanced\defaultwindowposition.htmlbody" />
+    <None Include="html\config\advanced\defaultwindowposition.htmltitle" />
+    <None Include="html\config\advanced\dontautosizewindow.htmlbody" />
+    <None Include="html\config\advanced\dontautosizewindow.htmltitle" />
+    <None Include="html\config\advanced\installationpath.htmlbody" />
+    <None Include="html\config\advanced\installationpath.htmltitle" />
+    <None Include="html\config\advanced\rememberedwindowposition.htmlbody" />
+    <None Include="html\config\advanced\rememberedwindowposition.htmltitle" />
+    <None Include="html\config\advanced\rememberedwindowsize.htmlbody" />
+    <None Include="html\config\advanced\rememberedwindowsize.htmltitle" />
+    <None Include="html\config\advanced\rememberwindowposition.htmlbody" />
+    <None Include="html\config\advanced\rememberwindowposition.htmltitle" />
+    <None Include="html\config\advanced\rememberwindowsize.htmlbody" />
+    <None Include="html\config\advanced\rememberwindowsize.htmltitle" />
+    <None Include="html\config\advanced\startresizablewindowmaximized.htmlbody" />
+    <None Include="html\config\advanced\startresizablewindowmaximized.htmltitle" />
+    <None Include="html\config\advanced\textureaccessmethod.htmlbody" />
+    <None Include="html\config\advanced\textureaccessmethod.htmltitle" />
+    <None Include="html\config\advanced\textureformat.htmlbody" />
+    <None Include="html\config\advanced\textureformat.htmltitle" />
+    <None Include="html\config\advanced\writeinifile.htmlbody" />
+    <None Include="html\config\advanced\writeinifile.htmltitle" />
+    <None Include="html\config\debugtab.htmlbody" />
+    <None Include="html\config\debugtab.htmltitle" />
+    <None Include="html\config\debug\debugblenddestinationcolor.htmlbody" />
+    <None Include="html\config\debug\debugblenddestinationcolor.htmltitle" />
+    <None Include="html\config\debug\disablearbdirectstateaccess.htmlbody" />
+    <None Include="html\config\debug\disablearbdirectstateaccess.htmltitle" />
+    <None Include="html\config\debug\disablearbframebuffers.htmlbody" />
+    <None Include="html\config\debug\disablearbframebuffers.htmltitle" />
+    <None Include="html\config\debug\disabledrawonpalettechange.htmlbody" />
+    <None Include="html\config\debug\disabledrawonpalettechange.htmltitle" />
+    <None Include="html\config\debug\disableextdirectstateaccess.htmlbody" />
+    <None Include="html\config\debug\disableextdirectstateaccess.htmltitle" />
+    <None Include="html\config\debug\disableextframebuffers.htmlbody" />
+    <None Include="html\config\debug\disableextframebuffers.htmltitle" />
+    <None Include="html\config\debug\disableextgpushader4.htmlbody" />
+    <None Include="html\config\debug\disableextgpushader4.htmltitle" />
+    <None Include="html\config\debug\disablegles2compatibility.htmlbody" />
+    <None Include="html\config\debug\disablegles2compatibility.htmltitle" />
+    <None Include="html\config\debug\disableglsl130support.htmlbody" />
+    <None Include="html\config\debug\disableglsl130support.htmltitle" />
+    <None Include="html\config\debug\disablemousecursorhooks.htmlbody" />
+    <None Include="html\config\debug\disablemousecursorhooks.htmltitle" />
+    <None Include="html\config\debug\disablesamplerobjects.htmlbody" />
+    <None Include="html\config\debug\disablesamplerobjects.htmltitle" />
+    <None Include="html\config\debug\maximumopenglversion.htmlbody" />
+    <None Include="html\config\debug\maximumopenglversion.htmltitle" />
+    <None Include="html\config\debug\uploadsurfacecontentsonunlock.htmlbody" />
+    <None Include="html\config\debug\uploadsurfacecontentsonunlock.htmltitle" />
+    <None Include="html\config\displaytab.htmlbody" />
+    <None Include="html\config\displaytab.htmltitle" />
+    <None Include="html\config\display\addcolordepths.htmlbody" />
+    <None Include="html\config\display\addcolordepths.htmltitle" />
+    <None Include="html\config\display\additionaldisplaymodes.htmlbody" />
+    <None Include="html\config\display\additionaldisplaymodes.htmltitle" />
+    <None Include="html\config\display\changedisplaycolordepth.htmlbody" />
+    <None Include="html\config\display\changedisplaycolordepth.htmltitle" />
+    <None Include="html\config\display\customresolution.htmlbody" />
+    <None Include="html\config\display\customresolution.htmltitle" />
+    <None Include="html\config\display\dpiscalingmode.htmlbody" />
+    <None Include="html\config\display\dpiscalingmode.htmltitle" />
+    <None Include="html\config\display\fixedscaling.htmlbody" />
+    <None Include="html\config\display\fixedscaling.htmltitle" />
+    <None Include="html\config\display\fullscreenwindowmode.htmlbody" />
+    <None Include="html\config\display\fullscreenwindowmode.htmltitle" />
+    <None Include="html\config\display\scalingmethod.htmlbody" />
+    <None Include="html\config\display\scalingmethod.htmltitle" />
+    <None Include="html\config\display\screenaspectratio.htmlbody" />
+    <None Include="html\config\display\screenaspectratio.htmltitle" />
+    <None Include="html\config\display\setdisplayconfig.htmlbody" />
+    <None Include="html\config\display\setdisplayconfig.htmltitle" />
+    <None Include="html\config\display\singlebuffereddisplay.htmlbody" />
+    <None Include="html\config\display\singlebuffereddisplay.htmltitle" />
+    <None Include="html\config\display\sortvideomodes.htmlbody" />
+    <None Include="html\config\display\sortvideomodes.htmltitle" />
+    <None Include="html\config\display\verticalsync.htmlbody" />
+    <None Include="html\config\display\verticalsync.htmltitle" />
+    <None Include="html\config\display\videomode.htmlbody" />
+    <None Include="html\config\display\videomode.htmltitle" />
+    <None Include="html\config\display\windowmodescaling.htmlbody" />
+    <None Include="html\config\display\windowmodescaling.htmltitle" />
+    <None Include="html\config\effectstab.htmlbody" />
+    <None Include="html\config\effectstab.htmltitle" />
+    <None Include="html\config\effects\bltscalingfilter.htmlbody" />
+    <None Include="html\config\effects\bltscalingfilter.htmltitle" />
+    <None Include="html\config\effects\postprocessinputmultiplier.htmlbody" />
+    <None Include="html\config\effects\postprocessinputmultiplier.htmltitle" />
+    <None Include="html\config\effects\postprocessscaler.htmlbody" />
+    <None Include="html\config\effects\postprocessscaler.htmltitle" />
+    <None Include="html\config\effects\primarybufferscaling.htmlbody" />
+    <None Include="html\config\effects\primarybufferscaling.htmltitle" />
+    <None Include="html\config\gfxtesttab.htmlbody" />
+    <None Include="html\config\gfxtesttab.htmltitle" />
+    <None Include="html\config\gfxtest\bltfast.htmlbody" />
+    <None Include="html\config\gfxtest\bltfast.htmltitle" />
+    <None Include="html\config\gfxtest\bltraster.htmlbody" />
+    <None Include="html\config\gfxtest\bltraster.htmltitle" />
+    <None Include="html\config\gfxtest\colorfill.htmlbody" />
+    <None Include="html\config\gfxtest\colorfill.htmltitle" />
+    <None Include="html\config\gfxtest\colorpalette.htmlbody" />
+    <None Include="html\config\gfxtest\colorpalette.htmltitle" />
+    <None Include="html\config\gfxtest\destkeyoverride.htmlbody" />
+    <None Include="html\config\gfxtest\destkeyoverride.htmltitle" />
+    <None Include="html\config\gfxtest\drawindexedprimitive.htmlbody" />
+    <None Include="html\config\gfxtest\drawindexedprimitive.htmltitle" />
+    <None Include="html\config\gfxtest\drawprimitivetextured.htmlbody" />
+    <None Include="html\config\gfxtest\drawprimitivetextured.htmltitle" />
+    <None Include="html\config\gfxtest\gditest.htmlbody" />
+    <None Include="html\config\gfxtest\gditest.htmltitle" />
+    <None Include="html\config\gfxtest\largebatchblt.htmlbody" />
+    <None Include="html\config\gfxtest\largebatchblt.htmltitle" />
+    <None Include="html\config\gfxtest\mirrorrotate.htmlbody" />
+    <None Include="html\config\gfxtest\mirrorrotate.htmltitle" />
+    <None Include="html\config\gfxtest\mousetest.htmlbody" />
+    <None Include="html\config\gfxtest\mousetest.htmltitle" />
+    <None Include="html\config\gfxtest\randomgdi.htmlbody" />
+    <None Include="html\config\gfxtest\randomgdi.htmltitle" />
+    <None Include="html\config\gfxtest\randomnoise.htmlbody" />
+    <None Include="html\config\gfxtest\randomnoise.htmltitle" />
+    <None Include="html\config\gfxtest\rasterop.htmlbody" />
+    <None Include="html\config\gfxtest\setcursorpos.htmlbody" />
+    <None Include="html\config\gfxtest\setcursorpos.htmltitle" />
+    <None Include="html\config\gfxtest\srckeyoverride.htmlbody" />
+    <None Include="html\config\gfxtest\srckeyoverride.htmltitle" />
+    <None Include="html\config\gfxtest\surfaceformat.htmlbody" />
+    <None Include="html\config\gfxtest\surfaceformat.htmltitle" />
+    <None Include="html\config\gfxtest\texturestageshaders.htmlbody" />
+    <None Include="html\config\gfxtest\texturestageshaders.htmltitle" />
+    <None Include="html\config\gfxtest\vertexshaders.htmlbody" />
+    <None Include="html\config\gfxtest\vertexshaders.htmltitle" />
+    <None Include="html\config\gfxtest\windowapitest.htmlbody" />
+    <None Include="html\config\gfxtest\windowapitest.htmltitle" />
+    <None Include="html\config\hackstab.htmlbody" />
+    <None Include="html\config\hackstab.htmltitle" />
+    <None Include="html\config\hacks\automaticexpandcomparisonmethod.htmlbody" />
+    <None Include="html\config\hacks\automaticexpandcomparisonmethod.htmltitle" />
+    <None Include="html\config\hacks\automaticexpandcomparisonvalue.htmlbody" />
+    <None Include="html\config\hacks\automaticexpandcomparisonvalue.htmltitle" />
+    <None Include="html\config\hacks\crop640480to640400.htmlbody" />
+    <None Include="html\config\hacks\crop640480to640400.htmltitle" />
+    <None Include="html\config\hacks\automaticallyexpandviewport.htmlbody" />
+    <None Include="html\config\hacks\automaticallyexpandviewport.htmltitle" />
+    <None Include="html\config\hacks\palettedrawdelayms.htmlbody" />
+    <None Include="html\config\hacks\palettedrawdelayms.htmltitle" />
+    <None Include="html\config\hacks\removetvcompatiblerefreshrates.htmlbody" />
+    <None Include="html\config\hacks\removetvcompatiblerefreshrates.htmltitle" />
+    <None Include="html\config\hacks\setcursorhidevisibility.htmlbody" />
+    <None Include="html\config\hacks\setcursorhidevisibility.htmltitle" />
+    <None Include="html\config\hacks\syncpaletteupdatetovsync.htmlbody" />
+    <None Include="html\config\hacks\syncpaletteupdatetovsync.htmltitle" />
+    <None Include="html\introduction.htmlbody" />
+    <None Include="html\introduction.htmltitle" />
+    <None Include="html\licenses.htmlbody" />
+    <None Include="html\licenses.htmltitle" />
+    <None Include="html\licenses\crc32.htmlbody" />
+    <None Include="html\licenses\crc32.htmltitle" />
+    <None Include="html\licenses\dxgl.htmlbody" />
+    <None Include="html\licenses\dxgl.htmltitle" />
+    <None Include="html\licenses\inih.htmlbody" />
+    <None Include="html\licenses\inih.htmltitle" />
+    <None Include="html\licenses\mesa.htmlbody" />
+    <None Include="html\licenses\mesa.htmltitle" />
+    <None Include="html\licenses\minhook.htmlbody" />
+    <None Include="html\licenses\minhook.htmltitle" />
+    <None Include="html\licenses\sha.htmlbody" />
+    <None Include="html\licenses\sha.htmltitle" />
+    <None Include="html\licenses\wine.htmlbody" />
+    <None Include="html\licenses\wine.htmltitle" />
+    <None Include="html\troubleshooting.htmlbody" />
+    <None Include="html\troubleshooting.htmltitle" />
+    <None Include="images\bltfast.png" />
+    <None Include="images\bltrop.png" />
+    <None Include="images\colorfill-random.png" />
+    <None Include="images\destkeyoverride.png" />
+    <None Include="images\drawindexedprimitive.png" />
+    <None Include="images\drawprimitivetextured.png" />
+    <None Include="images\dxgl-header.png" />
+    <None Include="images\dxglcfg-3dgraphics.png" />
+    <None Include="images\dxglcfg-about.png" />
+    <None Include="images\dxglcfg-advanced.png" />
+    <None Include="images\dxglcfg-debug.png" />
+    <None Include="images\dxglcfg-display.png" />
+    <None Include="images\dxglcfg-effects.png" />
+    <None Include="images\dxglcfg-hacks.png" />
+    <None Include="images\dxglcfg-saveini.png" />
+    <None Include="images\dxglcfg-tests.png" />
+    <None Include="images\gdi-pattern.png" />
+    <None Include="images\gdi-random.png" />
+    <None Include="images\gradients-15bpp.png" />
+    <None Include="images\gradients-16bpp.png" />
+    <None Include="images\gradients-24bpp.png" />
+    <None Include="images\gradients-8bpp.png" />
+    <None Include="images\large-batch-blt.png" />
+    <None Include="images\mirror-rotate.png" />
+    <None Include="images\mouse-test.png" />
+    <None Include="images\palette-8bpp.png" />
+    <None Include="images\random-noise.jpg" />
+    <None Include="images\rop-patterns.png" />
+    <None Include="images\setcursorpos.png" />
+    <None Include="images\srckeyoverride.png" />
+    <None Include="images\surfaceformat.png" />
+    <None Include="images\textureshader.png" />
+    <None Include="images\vertexshader.png" />
+    <None Include="images\windowapitest1.png" />
+    <None Include="images\windowapitest2.png" />
+    <None Include="Index.hhk" />
+    <None Include="template.html" />
+    <None Include="toc.hhc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="html\config\gfxtest\rasterop.htmltitle" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
