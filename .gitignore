@@ -1,7 +1,9 @@
 *.exe
 *.engine
 *.tws
+*.wts
 *.pt
+*.bmp
 */.git
 */.github
 */build
