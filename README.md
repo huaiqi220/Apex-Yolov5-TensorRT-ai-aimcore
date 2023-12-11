@@ -9,6 +9,8 @@
 
 实现了>60fps的高帧率辅助瞄准。
 
+## !!翻了一下仓库，好像没把最终版本代码传上来，近期传吧
+
 ![myrj4-4m3m0](https://github.com/huaiqi220/Apex-Yolov5-TensorRT-ai-aimcore/assets/64659513/823ce3d3-7f26-4725-9bec-eb5d914df4a3)
 
 ![train_batch0](https://github.com/huaiqi220/Apex-Yolov5-TensorRT-ai-aimcore/assets/64659513/2a9c461f-6988-4007-8276-b9cfbf091634)
